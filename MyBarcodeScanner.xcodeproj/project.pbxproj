@@ -11,6 +11,7 @@
 		619858562C5AF04500179DFB /* BarcodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619858552C5AF04500179DFB /* BarcodeScannerView.swift */; };
 		619858582C5AF04700179DFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 619858572C5AF04700179DFB /* Assets.xcassets */; };
 		6198585B2C5AF04700179DFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6198585A2C5AF04700179DFB /* Preview Assets.xcassets */; };
+		619858632C5B033B00179DFB /* ScannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619858622C5B033B00179DFB /* ScannerVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		619858572C5AF04700179DFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6198585A2C5AF04700179DFB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		619858612C5B024900179DFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		619858622C5B033B00179DFB /* ScannerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,10 +54,11 @@
 		619858522C5AF04500179DFB /* MyBarcodeScanner */ = {
 			isa = PBXGroup;
 			children = (
-				619858612C5B024900179DFB /* Info.plist */,
 				619858532C5AF04500179DFB /* MyBarcodeScannerApp.swift */,
 				619858552C5AF04500179DFB /* BarcodeScannerView.swift */,
+				619858622C5B033B00179DFB /* ScannerVC.swift */,
 				619858572C5AF04700179DFB /* Assets.xcassets */,
+				619858612C5B024900179DFB /* Info.plist */,
 				619858592C5AF04700179DFB /* Preview Content */,
 			);
 			path = MyBarcodeScanner;
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				619858632C5B033B00179DFB /* ScannerVC.swift in Sources */,
 				619858562C5AF04500179DFB /* BarcodeScannerView.swift in Sources */,
 				619858542C5AF04500179DFB /* MyBarcodeScannerApp.swift in Sources */,
 			);
